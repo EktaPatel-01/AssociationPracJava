@@ -24,10 +24,10 @@ public class AssociCalculator {
     }
 }
 class Gadget{
-
+                           //is A 
 }
 class Calculator extends Gadget{
-    private Battery batteryObj;
+    private Battery batteryObj;       //has A
 
     public Calculator(Battery batteryObj){
         this.batteryObj=batteryObj;
@@ -35,7 +35,7 @@ class Calculator extends Gadget{
         batteryObj.showFeatures();
     }
 
-    
+                  // uses A
     int calcutale(int a,int b, String operation){
         
         int result=0;
@@ -64,7 +64,7 @@ class Calculator extends Gadget{
             default:
                 System.out.println("invalid operation");
         }
-        return result;
+        return result;           //produces A
     
     }
     
